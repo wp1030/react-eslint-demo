@@ -19,7 +19,8 @@ module.exports = {
     },
     "plugins": [
         "react",
-        "prefer-arrow"
+        "prefer-arrow",
+        "import"
     ],
     "settings": {
       "react": {
@@ -63,5 +64,11 @@ module.exports = {
               "classPropertiesAllowed": false
             }
         ],
+        "import/newline-after-import": [
+            "error",
+            {
+                "count": 2
+            }
+        ]
     }
 }
