@@ -23,12 +23,12 @@ module.exports = {
         "import"
     ],
     "settings": {
-      "react": {
-        "version": "detect"
-      }
+        "react": {
+            "version": "detect"
+        }
     },
     "rules": {
-        "react/react-in-jsx-scope": "off",
+        //"react/react-in-jsx-scope": "off",
         "indent": [
             "error",
             2
